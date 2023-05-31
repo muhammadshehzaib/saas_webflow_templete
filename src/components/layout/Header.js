@@ -10,7 +10,18 @@ const Header = () => {
         </div>
         <div className="logo-text mat-h1">PrimeCRM</div>
       </div>
-      <div></div>
+      <div className="navbar">
+        <ul className="mat-h6">
+          <li>Solution</li>
+          <li>Industries</li>
+          <li>Products</li>
+          <li>Resources</li>
+          <li>Pricing</li>
+          <li>
+            <button className="primary-btn mat-h6">Login</button>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
