@@ -1,6 +1,10 @@
 import React from "react";
 // import Images from "../../assets/images/Images";
-import { PremiumFeatures, LeadManagement } from "../blocks/Index";
+import {
+  PremiumFeatures,
+  LeadManagement,
+  ProjectManagement,
+} from "../blocks/Index";
 
 const Home = () => {
   return (
@@ -25,6 +29,7 @@ const Home = () => {
       </div>
       <PremiumFeatures />
       <LeadManagement />
+      <ProjectManagement />
     </div>
   );
 };
