@@ -8,7 +8,7 @@ const Header = () => {
         <div className="logo-svg">
           <img src={Images.logo} alt="" />
         </div>
-        <div className="logo-text mat-h1">PrimeCRM</div>
+        <div className="logo-text mat-h2">PrimeCRM</div>
       </div>
       <div className="navbar">
         <ul className="mat-h6">
