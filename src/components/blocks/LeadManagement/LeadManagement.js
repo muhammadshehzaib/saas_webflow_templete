@@ -5,6 +5,7 @@ import LeadManagmentList from "./LeadManagmentList";
 const LeadManagement = () => {
   return (
     <div className="lead-management-section">
+      <img src={Images.Banner.Background} alt="" className="background-img" />
       <div className="container">
         <div className="lead-management">
           <div className="img">
